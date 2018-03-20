@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.robin.myapplication2.Main4Activity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:alpha=".2"
+            app:srcCompat="@drawable/srn1" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="Types Of Trips"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="210dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="20dp"
+            android:onClick="click"
+            android:text="educational tour" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_alignBottom="@+id/button3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:text="hill station" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/button3"
+            android:layout_below="@+id/button3"
+            android:layout_marginTop="13dp"
+            android:text="religious tour" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="145dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/button5"
+            android:layout_marginTop="15dp"
+            android:text="beaches" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/button5"
+            android:layout_below="@+id/button5"
+            android:text="health tour" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignBaseline="@+id/button7"
+            android:layout_alignBottom="@+id/button7"
+            android:layout_alignEnd="@+id/textView2"
+            android:text="wildlife tour" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
